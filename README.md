@@ -1,5 +1,5 @@
 # Simplest_Daily_Spending_Tracker
-This is the most simplest Daily Expense Tracker written in VbScript which you can ever find on internet  😉 . 
+This is the most simplest Daily Expense Tracker written in VbScript which you can ever find on internet 😉. 
 
 This was created for my personal use. 
 I was fed up with unwanted functionalities like category, budget etc., which was making it hard to log expenses quickly and consistentely on daily basis. So ...
@@ -19,7 +19,7 @@ Yess, i know, many of you might be thinking why would i use this if it is just w
 I know, enough of this blabbering right! ☺️  Hehehe, let's see how to use it ...
 
 **How to use** :-
-1) Download the zip file from the repo which has only one file ( Duh! along with this README file.  😜 )
+1) Download the zip file from the repo which has only one file (Duh! along with this README file.😜)
 2) Keep it anywhere in your system.
 3) Double click on the file.
 4) Enter the name of the thing on which money was spent like cake, movie, ice cream etc.,
@@ -32,11 +32,11 @@ I know, enough of this blabbering right! ☺️  Hehehe, let's see how to use it
 
 **Files and folders** :- 
 1. Applicaton file (Daily Expense Tracker.vbs) - To run (Just double click and do what the UI says).
-2. A fileder (All Records) - This along with 2 text files with in this folder gets created after entering a transaction.
+2. A fileder (All Records) - This along with 2 text files with in this folder gets created (on the same location where application file is present) after entering a transaction.
       1. Daily Expense Records.txt - This has each and every transactions which you have entered. Don't worry about running the application more than once in a day or entering the date. It is all taken care of. This can be used for referring old data for your analysis.
       2. Daily Total Spendings.txt - This has total amount spent each day written clearly.
 
 Guess many people like Simplicity (Yo!, I do too).
-This is for you guys. Enjoy!!  😉  😉 
+This is for you guys. Enjoy!! 😉😉
 
 P.S: All feedbacks, ideas and PR's are much appriciated. Please read README file before using. Thanks. Peace.
