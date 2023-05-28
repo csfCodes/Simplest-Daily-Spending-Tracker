@@ -31,10 +31,10 @@ I know, enough of this blabbering right! ☺️  Hehehe, let's see how to use it
 10) Voila!, That's it.
 
 **Files and folders** :- 
-1) Applicaton file (Daily Expense Tracker.vbs) - To run (Just double click and do what the UI says).
-2) A fileder (All Records) - This along with 2 text files with in this folder gets created after entering a transaction.
-2.1) Daily Expense Records.txt - This has each and every transactions which you have entered. Don't worry about running the application more than once in a day or entering the date. It is all taken care of. This can be used for referring old data for your analysis.
-2.2) Daily Total Spendings.txt - This has total amount spent each day written clearly.
+1. Applicaton file (Daily Expense Tracker.vbs) - To run (Just double click and do what the UI says).
+2. A fileder (All Records) - This along with 2 text files with in this folder gets created after entering a transaction.
+      1. Daily Expense Records.txt - This has each and every transactions which you have entered. Don't worry about running the application more than once in a day or entering the date. It is all taken care of. This can be used for referring old data for your analysis.
+      2. Daily Total Spendings.txt - This has total amount spent each day written clearly.
 
 Guess many people like Simplicity (Yo!, I do too).
 This is for you guys. Enjoy!!  😉  😉 
