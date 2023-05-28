@@ -21,6 +21,7 @@ Do
     Dim userInput1
     Do
         userInput1 = InputBox("SPENT ON?", "EXPENSE NAME :", "Chai-S")
+		userInput1 = UCase(userInput1)
         
         ' Check if the first input is empty
         If Trim(userInput1) = "" Then
@@ -71,8 +72,6 @@ Do
         Set file = fileSystem.OpenTextFile(expenseFilePath, 8, True)
         file.WriteLine vbNewLine & currentDate
         file.Close
-    
-        MsgBox "TODAY'S DATE ADDED!", vbInformation
     End If  ' End of the inner If block
     
     ' Write the expense details to the file
@@ -174,7 +173,4 @@ Do
 Loop
 
 ' Display today's spending list
-MsgBox "TODAY'S SPENDING LIST :" & vbCrLf & vbCrLf & "-----------------------------------" & vbCrLf & "        " & result & "-----------------------------------", vbInformation
-
-' Display today's total spending
-MsgBox "TODAY'S TOTAL SPENDING : " & vbCrLf & vbCrLf & "          Rs. " & totalSpending, vbInformation
+MsgBox "TODAY'S SPENDING LIST :" & vbCrLf & "-----------------------------------" & vbCrLf & "        " & result & "-----------------------------------" & vbCrLf & "TODAY'S TOTAL : Rs. " & totalSpending & vbCrLf & "-----------------------------------", vbInformation
